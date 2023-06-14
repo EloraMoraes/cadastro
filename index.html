@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cadastro de Alimentos</title>
+  <link rel="stylesheet" href="styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+</head>
+<body>
+
+     
+  <div class="form-container">
+    <h1><span class="highlight">Cadastro de Alimento</span></h1>
+    <label for="alimento">Alimento:</label>
+    <input type="text" id="alimento" placeholder="Digite o alimento">
+    <label for="calorias">Calorias:</label>
+    <input type="text" id="calorias" placeholder="Digite as calorias">
+    <label for="gramas">Gramas:</label>
+    <input type="text" id="gramas" placeholder="Digite as gramas">
+    <label for="tipo">Tipo:</label>
+    <select id="tipo">
+      <option value="fruta">Fruta</option>
+      <option value="vegetal">Vegetal</option>
+      <option value="graos">Grãos</option>
+      
+      
+    </select>
+    <div class="btn-container">
+      <button class="btn" onclick="adicionarAlimento()">Adicionar</button>
+      <button class="btn cancel" onclick="limparCampos()">Cancelar</button>
+    </div>
+  </div>
+  <div class="table-container">
+    <table id="tabela">
+      <thead>
+        <tr>
+          <th>Alimento</th>
+          <th>Calorias</th>
+          <th>Gramas</th>
+          <th>Tipo</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </div>
+  <div class="success-message" id="success-message"></div>
+  <div class="error-message" id="error-message"></div>
+  <script src="script.js"></script>
+</body>
+</html>

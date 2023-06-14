@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+    padding: 10px;
+  }
+  body {
+    background-image: url(https://th.bing.com/th/id/R.5bf88e53a633d720483882b41994cb2e?rik=A%2bdMAn5CgvrTBw&riu=http%3a%2f%2fmisremedios.com%2fwp-content%2fuploads%2f2017%2f07%2fBeneficios-antioxidantes-1.jpg&ehk=pNDY4JmhzCowE71o5UjISlWZbJ%2bSlpFVUTngbwYijFI%3d&risl=&pid=ImgRaw&r=0);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  
+  h1 {
+    text-align: center;
+  }
+  .highlight {
+    color: rgb(96, 96, 248);
+  }
+  
+  
+  .form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #dbe5eb;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(231, 69, 69, 0.1);
+    width: 80%;
+    font-size: 1.2em; 
+    }
+    
+  
+  
+  .form-container label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .form-container input[type="text"],
+  .form-container input[type="number"],
+  .form-container select {
+    width: 100%;
+    padding: 8px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+  }
+  
+  .form-container .btn-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .form-container .btn {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .form-container .btn.cancel {
+    background-color: #180231;
+  }
+  
+  .table-container {
+    margin-top: 20px;
+    color: rgba(5, 5, 138, 0.993);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    background-color: aliceblue;
+  }
+  
+  .table-container table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table-container th,
+  .table-container td {
+    padding: 8px;
+    border-bottom: 1px solid #310303;
+    text-align
+  
+  }
+  
+  .food-image {
+    width: 150px; 
+    margin-right: 30px; 
+  }
+  
